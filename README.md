@@ -37,7 +37,7 @@ There is a set of weather readings from various cities recorded as a CSV file (c
 
        "generate_csv cols=20 rows=40 outputfile=sample1.csv"
        
-        (parseCSVFile.cpp)
+    (parseCSVFile.cpp)
     2) Second program should read the sample program read in step 1) and do the following
        Generate row wise mean for a particular city
        Generate row wise median for a particular city
