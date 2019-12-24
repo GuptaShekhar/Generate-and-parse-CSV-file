@@ -9,7 +9,14 @@ In reading a CSV file, the following approach is implemented:-
 1. Using getline(), file pointer and ‘\n’ as the delimiter, read an entire row and store it in a string variable.
 2. Using stringstream, seperate the row into words.
 
-To get a random number and don't allow repetition, I have used a srand(clock()), that provide random number without causing any repetition.
+To get a random number, I have used a srand(clock()), that provide random number without causing any repetition.
+
+The program take a user input from command line.
+generateCSVFile.cpp ask for 3 input, first input is number of column, second input is for number of row and third input for CSV filename.
+#### command line input format-   ./execfile1  20 40 csvFile
+parseCSVFile  ask for one input, i.e. name of csvFile.
+#### command line input format-   ./execfile2  csvFile
+
 
 ### Program
 There is a set of weather readings from various cities recorded as a CSV file (comma separated values file). 
