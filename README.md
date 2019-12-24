@@ -28,6 +28,7 @@ There is a set of weather readings from various cities recorded as a CSV file (c
     Cairo, 40, 39, 38, 42
 
     Write 2 separate programs
+    (generateCSVFile.cpp)
     1) First program should generate a sample CSV for different cities use city names as "c1", "c2" etc ..., for day use "d1", "d2" etc ...
        The temperature readings should range between -10 to 45, generate random temperature readings for this
  
@@ -36,7 +37,7 @@ There is a set of weather readings from various cities recorded as a CSV file (c
 
        "generate_csv cols=20 rows=40 outputfile=sample1.csv"
        
-
+        (parseCSVFile.cpp)
     2) Second program should read the sample program read in step 1) and do the following
        Generate row wise mean for a particular city
        Generate row wise median for a particular city
@@ -48,8 +49,8 @@ There is a set of weather readings from various cities recorded as a CSV file (c
        Generate column wise standard deviation for a particular city
        Do this for all columns one by one and print the calculated values
 
-       Program should take 3 arguments as follows
-       "print_stats cols=20 rows=40 inputfile=sample1.csv"
+       Program should take 1 arguments as follows
+       "print_stats  inputfile=sample1.csv"
 
        Output should be as follows:
        ROW wise stats
