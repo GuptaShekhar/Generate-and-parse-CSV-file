@@ -13,9 +13,9 @@ To get a random number, I have used a srand(clock()), that provide random number
 
 The program take a user input from command line.
 generateCSVFile.cpp ask for 3 input, first input is number of column, second input is for number of row and third input for CSV filename.
-#### command line input format-   ./execfile1  20 40 csvFile
+###### command line input format-   ./execfile1  20 40 csvFile
 parseCSVFile  ask for one input, i.e. name of csvFile.
-#### command line input format-   ./execfile2  csvFile
+###### command line input format-   ./execfile2  csvFile
 
 
 ### Program
